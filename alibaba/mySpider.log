@@ -1,0 +1,477 @@
+2019-04-10 11:25:43 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 11:25:43 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 11:25:43 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 11:25:43 [scrapy.extensions.telnet] INFO: Telnet Password: 2175a3adb2603a94
+2019-04-10 11:25:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 11:25:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 11:25:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 11:25:43 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 11:25:43 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 11:25:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 11:25:43 [ranking] INFO: Spider opened: ranking
+2019-04-10 11:25:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 11:25:47 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 11:25:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2712,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 279481,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 3, 25, 48, 732232),
+ 'item_scraped_count': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 3, 25, 43, 405774)}
+2019-04-10 11:25:48 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 11:40:49 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 11:40:49 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 11:40:49 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 11:40:49 [scrapy.extensions.telnet] INFO: Telnet Password: b5878d458d27d750
+2019-04-10 11:40:49 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 11:40:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 11:40:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 11:40:50 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 11:40:50 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 11:40:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 11:40:50 [ranking] INFO: Spider opened: ranking
+2019-04-10 11:40:50 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 11:41:01 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 11:41:02 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6765,
+ 'downloader/request_count': 9,
+ 'downloader/request_method_count/GET': 9,
+ 'downloader/response_bytes': 619490,
+ 'downloader/response_count': 9,
+ 'downloader/response_status_count/200': 9,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 3, 41, 2, 683434),
+ 'item_scraped_count': 2,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 9,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 3, 40, 50, 73232)}
+2019-04-10 11:41:02 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 11:56:03 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 11:56:03 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 11:56:03 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 11:56:03 [scrapy.extensions.telnet] INFO: Telnet Password: d978c2e88e78d03f
+2019-04-10 11:56:03 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 11:56:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 11:56:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 11:56:04 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 11:56:04 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 11:56:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 11:56:04 [ranking] INFO: Spider opened: ranking
+2019-04-10 11:56:04 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 11:56:15 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 11:56:16 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6819,
+ 'downloader/request_count': 9,
+ 'downloader/request_method_count/GET': 9,
+ 'downloader/response_bytes': 623110,
+ 'downloader/response_count': 9,
+ 'downloader/response_status_count/200': 9,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 3, 56, 16, 894374),
+ 'item_scraped_count': 2,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 9,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 3, 56, 4, 85153)}
+2019-04-10 11:56:16 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 12:11:18 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 12:11:18 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 12:11:18 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 12:11:18 [scrapy.extensions.telnet] INFO: Telnet Password: a13f4d8d3b5ab278
+2019-04-10 12:11:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 12:11:18 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 12:11:18 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 12:11:18 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 12:11:18 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 12:11:18 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 12:11:18 [ranking] INFO: Spider opened: ranking
+2019-04-10 12:11:18 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 12:11:40 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 12:11:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 13497,
+ 'downloader/request_count': 17,
+ 'downloader/request_method_count/GET': 17,
+ 'downloader/response_bytes': 1169484,
+ 'downloader/response_count': 17,
+ 'downloader/response_status_count/200': 17,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 4, 11, 41, 866056),
+ 'item_scraped_count': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 17,
+ 'scheduler/dequeued': 17,
+ 'scheduler/dequeued/memory': 17,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 4, 11, 18, 596675)}
+2019-04-10 12:11:41 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 12:26:43 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 12:26:43 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 12:26:43 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 12:26:43 [scrapy.extensions.telnet] INFO: Telnet Password: 3eb4f20d00fb649a
+2019-04-10 12:26:43 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 12:26:43 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 12:26:43 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 12:26:43 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 12:26:43 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 12:26:43 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 12:26:43 [ranking] INFO: Spider opened: ranking
+2019-04-10 12:26:43 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 12:26:47 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 12:26:48 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2760,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 279587,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 4, 26, 48, 880031),
+ 'item_scraped_count': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 4, 26, 43, 332849)}
+2019-04-10 12:26:48 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 12:41:49 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 12:41:49 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 12:41:50 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 12:41:50 [scrapy.extensions.telnet] INFO: Telnet Password: da804fdddc3571ae
+2019-04-10 12:41:50 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 12:41:50 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 12:41:50 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 12:41:50 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 12:41:50 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 12:41:50 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 12:41:50 [ranking] INFO: Spider opened: ranking
+2019-04-10 12:41:50 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 12:41:54 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 12:41:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 2766,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 280880,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 4, 41, 55, 74587),
+ 'item_scraped_count': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 4, 41, 50, 328051)}
+2019-04-10 12:41:55 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 12:56:56 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 12:56:56 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 12:56:56 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 12:56:56 [scrapy.extensions.telnet] INFO: Telnet Password: ab4ffb65049151c4
+2019-04-10 12:56:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 12:56:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 12:56:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 12:56:56 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 12:56:56 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 12:56:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 12:56:56 [ranking] INFO: Spider opened: ranking
+2019-04-10 12:56:56 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 12:57:07 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 12:57:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6829,
+ 'downloader/request_count': 9,
+ 'downloader/request_method_count/GET': 9,
+ 'downloader/response_bytes': 622260,
+ 'downloader/response_count': 9,
+ 'downloader/response_status_count/200': 9,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 4, 57, 9, 281701),
+ 'item_scraped_count': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 9,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 4, 56, 56, 520422)}
+2019-04-10 12:57:09 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 13:12:10 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 13:12:10 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 13:12:10 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 13:12:10 [scrapy.extensions.telnet] INFO: Telnet Password: f18a021ca23a1c29
+2019-04-10 13:12:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 13:12:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 13:12:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 13:12:10 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 13:12:10 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 13:12:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 13:12:10 [ranking] INFO: Spider opened: ranking
+2019-04-10 13:12:10 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 13:12:22 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 13:12:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 6891,
+ 'downloader/request_count': 9,
+ 'downloader/request_method_count/GET': 9,
+ 'downloader/response_bytes': 620767,
+ 'downloader/response_count': 9,
+ 'downloader/response_status_count/200': 9,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 5, 12, 23, 539520),
+ 'item_scraped_count': 2,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 9,
+ 'scheduler/dequeued': 9,
+ 'scheduler/dequeued/memory': 9,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 5, 12, 10, 726795)}
+2019-04-10 13:12:23 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
+2019-04-10 13:27:24 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: alibaba)
+2019-04-10 13:27:24 [scrapy.utils.log] INFO: Versions: lxml 4.3.3.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.7 (v3.6.7:6ec5cf24b7, Oct 20 2018, 13:35:33) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Windows-10-10.0.17763-SP0
+2019-04-10 13:27:24 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'alibaba', 'CONCURRENT_REQUESTS': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'mySpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'alibaba.spiders', 'SPIDER_MODULES': ['alibaba.spiders']}
+2019-04-10 13:27:24 [scrapy.extensions.telnet] INFO: Telnet Password: 98ba3fd3b7ee8b08
+2019-04-10 13:27:24 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-10 13:27:24 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'alibaba.middlewares.AlibabaDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-10 13:27:24 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-10 13:27:24 [scrapy.middleware] INFO: Enabled item pipelines:
+['alibaba.pipelines.AlibabaPipeline']
+2019-04-10 13:27:24 [scrapy.core.engine] INFO: Spider opened
+2019-04-10 13:27:24 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-10 13:27:24 [ranking] INFO: Spider opened: ranking
+2019-04-10 13:27:24 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-10 13:27:37 [scrapy.core.engine] INFO: Closing spider (已找到目标停止爬虫)
+2019-04-10 13:27:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7728,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 687909,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 10,
+ 'finish_reason': '已找到目标停止爬虫',
+ 'finish_time': datetime.datetime(2019, 4, 10, 5, 27, 39, 50513),
+ 'item_scraped_count': 1,
+ 'log_count/INFO': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 10,
+ 'scheduler/dequeued': 10,
+ 'scheduler/dequeued/memory': 10,
+ 'scheduler/enqueued': 100,
+ 'scheduler/enqueued/memory': 100,
+ 'start_time': datetime.datetime(2019, 4, 10, 5, 27, 24, 989955)}
+2019-04-10 13:27:39 [scrapy.core.engine] INFO: Spider closed (已找到目标停止爬虫)
